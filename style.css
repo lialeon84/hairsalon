@@ -1,0 +1,130 @@
+body {
+    background-color: #deebf5;
+    font-family: 'font-family: 'DynaPuff', serif;';
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.headername {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    background-color: rgb(249, 245, 233);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #ef8787;
+    text-shadow: 1px 2px #a4a3a7;
+    /* margin-left: 30%; */
+    opacity: 0.5;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ef8787;
+    text-shadow: 1px 2px #a4a3a7;
+    opacity: 0.5;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+    font-size: 6rem;
+    color: #ef8787;
+    text-shadow: 1px 2px #a4a3a7;
+    opacity: 0.5;
+}
+
+.redhair,
+.darkhair,
+.blondhair {
+    /* border: 1px solid transparent; */
+    margin-top: 5%;
+    margin-left: 12%;
+    border-radius: 20%;
+    padding: 5px;
+    width: 350px;
+    height: 350px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.group {
+    padding: 5px;
+    width: 70%;
+    height: 70%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10%;
+    margin-left: 15%;
+}
+
+header>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    opacity: 0.5;
+}
+
+nav ul {
+    list-style: none;
+    text-align: center;
+    float: center;
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgb(249, 245, 233);
+    /* background-image: url(image/hairdryertwo.png); */
+    /* background-image: url(image/hairbrush.png); */
+    position: relative;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+nav li {
+    display: inline-block;
+    padding: 10px 45px;
+    text-decoration: none;
+}
+
+a {
+    color: #ef8787;
+    opacity: 0.5;
+    text-decoration: none;
+    font-size: 35px;
+    text-shadow: 1px 1px #a4a3a7;
+}
+
+a:hover {
+    color: #ebe8ed;
+    /* text-shadow: 0 0 5px #ef8787, 0 0 25px #ef8787, 0 0 50px #ef8787, 0 0 100px #ef8787; */
+}
+
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+}
+
+footer {
+    display: flex;
+}
+
+footer div {
+    flex: 1;
+    margin-top: 60%;
+}
+
+.footerImage {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    padding: 5px;
+    width: 100%;
+    height: 90px;
+    margin-top: 40%;
+    opacity: 0.5;
+    background-color: rgb(249, 245, 233);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
